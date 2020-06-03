@@ -1,0 +1,12 @@
+[package]
+name = "stream-decoder"
+version = "0.1.0"
+authors = ["Marcus Ofenhed <marcus@conditionraise.se>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# futures="0.3"
+# tokio={version = "0.2", features = ["rt-threaded", "macros", "io-std", "io-util"]}
+lz4="1.8"

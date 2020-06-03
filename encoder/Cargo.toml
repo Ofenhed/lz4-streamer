@@ -1,5 +1,5 @@
 [package]
-name = "stream-cipher"
+name = "stream-encoder"
 version = "0.1.0"
 authors = ["Marcus Ofenhed <marcus@conditionraise.se>"]
 edition = "2018"
