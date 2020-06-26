@@ -87,5 +87,7 @@ fn main() -> IOResult<()> {
       if first_decode { instant_failed += 1 }
       if instant_failed == 100 { break }
     }
+    data_sender(([].to_vec(), 0));
+    child.join();
     Ok(())
 }
